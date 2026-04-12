@@ -6,7 +6,7 @@
     "lang": "en-US",
     "favicon": "/assets/favicon.jpg",
     "accent": "#ea9a97",
-    "version": "3.0.2",
+    "version": "3.0.4",
     "created_at": "2026-04-12T00:00:00Z",
     "open_graph": {
       "title": "simsekframe",
@@ -281,7 +281,7 @@
           "primary": true,
           "tags": [],
           "lens": null,
-          "camera": "Honor 200 Pro"
+          "camera": "HONOR ELP-NX9"
         },
         {
           "id": "img-26-flight-1776028784326-1",
@@ -292,7 +292,7 @@
           "size": 7391007,
           "primary": false,
           "tags": [],
-          "camera": "HONOR ELI-NX9",
+          "camera": "HONOR ELP-NX9",
           "lens": null
         },
         {
@@ -304,7 +304,7 @@
           "size": 9166738,
           "primary": false,
           "tags": [],
-          "camera": "HONOR ELI-NX9",
+          "camera": "HONOR ELP-NX9",
           "lens": null
         },
         {
@@ -316,7 +316,7 @@
           "size": 5900220,
           "primary": false,
           "tags": [],
-          "camera": "HONOR ELI-NX9",
+          "camera": "HONOR ELP-NX9",
           "lens": null
         }
       ],
@@ -484,6 +484,6 @@
   },
   "meta": {
     "next_project_id": 8,
-    "version": "3.0.2"
+    "version": "3.0.4"
   }
 }
