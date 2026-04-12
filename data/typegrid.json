@@ -6,7 +6,7 @@
     "lang": "en-US",
     "favicon": "/assets/favicon.jpg",
     "accent": "#ea9a97",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "created_at": "2026-04-12T00:00:00Z",
     "open_graph": {
       "title": "simsekframe",
@@ -115,7 +115,7 @@
       "excerpt": "3 photos",
       "camera": "SONY NEX-3",
       "lens": "varies",
-      "favorite": true,
+      "favorite": false,
       "images": [
         {
           "id": "img-26-green-0",
@@ -338,6 +338,6 @@
   },
   "meta": {
     "next_project_id": 6,
-    "version": "3.0.1"
+    "version": "3.0.2"
   }
 }
