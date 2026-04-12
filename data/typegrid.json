@@ -6,7 +6,7 @@
     "lang": "en-US",
     "favicon": "/assets/favicon.jpg",
     "accent": "#ea9a97",
-    "version": "3.1.2",
+    "version": "3.1.4",
     "created_at": "2026-04-12T00:00:00Z",
     "open_graph": {
       "title": "simsekframe",
@@ -69,7 +69,7 @@
           "lens": "E 18-55mm F3.5-5.6 OSS",
           "camera": "SONY NEX-3",
           "created_at": "2026-04-11T15:52:16.000Z",
-          "url_thumb": "/images/26\" Red/01-thumb.webp",
+          "url_thumb": "./images/26\" Red/01-thumb.webp",
           "color": "#181818"
         },
         {
@@ -83,7 +83,7 @@
           "tags": [],
           "lens": "E 27-75mm F2.8 A063",
           "camera": "SONY ILCE-7M4",
-          "url_thumb": "/images/26\" Red/02-thumb.webp",
+          "url_thumb": "./images/26\" Red/02-thumb.webp",
           "color": "#180808"
         }
       ],
@@ -134,7 +134,7 @@
           "lens": "E 18-55mm F3.5-5.6 OSS",
           "camera": "SONY NEX-3",
           "created_at": "2026-04-11T17:58:42.000Z",
-          "url_thumb": "/images/26\" Green/01-thumb.webp",
+          "url_thumb": "./images/26\" Green/01-thumb.webp",
           "color": "#383828"
         },
         {
@@ -149,7 +149,7 @@
           "lens": "E 18-55mm F3.5-5.6 OSS",
           "camera": "SONY NEX-3",
           "created_at": "2026-04-11T17:59:21.000Z",
-          "url_thumb": "/images/26\" Green/02-thumb.webp",
+          "url_thumb": "./images/26\" Green/02-thumb.webp",
           "color": "#383828"
         },
         {
@@ -164,7 +164,7 @@
           "lens": "E 28-75mm F2.8 A063",
           "camera": "SONY ILCE-7M4",
           "created_at": "2026-02-10T18:46:42.000Z",
-          "url_thumb": "/images/26\" Green/03-thumb.webp",
+          "url_thumb": "./images/26\" Green/03-thumb.webp",
           "color": "#080808"
         }
       ],
@@ -210,7 +210,7 @@
           "lens": "E 28-75mm F2.8 A063",
           "camera": "SONY ILCE-7M4",
           "created_at": "2026-02-11T18:58:33.000Z",
-          "url_thumb": "/images/26\" Blue/01-thumb.webp",
+          "url_thumb": "./images/26\" Blue/01-thumb.webp",
           "color": "#080808"
         }
       ],
@@ -247,7 +247,7 @@
         {
           "id": "img-1776026905500",
           "filename": "01.jpg",
-          "url": "/images/26\" Experiments/01.jpg",
+          "url": "./images/26\" Experiments/01.jpg",
           "width": 4284,
           "height": 2851,
           "primary": true,
@@ -260,7 +260,7 @@
             "bokeh",
             "experiment"
           ],
-          "url_thumb": "/images/26\" Experiments/01-thumb.webp",
+          "url_thumb": "./images/26\" Experiments/01-thumb.webp",
           "color": "#282828"
         }
       ],
@@ -296,13 +296,13 @@
           "tags": [],
           "lens": null,
           "camera": "HONOR ELP-NX9",
-          "url_thumb": "/images/26\" Flight/01-thumb.webp",
+          "url_thumb": "./images/26\" Flight/01-thumb.webp",
           "color": "#1858c8"
         },
         {
           "id": "img-26-flight-1776028784326-1",
           "filename": "02.jpg",
-          "url": "/images/26\" Flight/02.jpg",
+          "url": "./images/26\" Flight/02.jpg",
           "width": 3072,
           "height": 4096,
           "size": 7391007,
@@ -310,13 +310,13 @@
           "tags": [],
           "camera": "HONOR ELP-NX9",
           "lens": null,
-          "url_thumb": "/images/26\" Flight/02-thumb.webp",
+          "url_thumb": "./images/26\" Flight/02-thumb.webp",
           "color": "#585858"
         },
         {
           "id": "img-26-flight-1776028784327-2",
           "filename": "03.jpg",
-          "url": "/images/26\" Flight/03.jpg",
+          "url": "./images/26\" Flight/03.jpg",
           "width": 2731,
           "height": 4096,
           "size": 9166738,
@@ -324,13 +324,13 @@
           "tags": [],
           "camera": "HONOR ELP-NX9",
           "lens": null,
-          "url_thumb": "/images/26\" Flight/03-thumb.webp",
+          "url_thumb": "./images/26\" Flight/03-thumb.webp",
           "color": "#7898a8"
         },
         {
           "id": "img-26-flight-1776028784328-3",
           "filename": "04.jpg",
-          "url": "/images/26\" Flight/04.jpg",
+          "url": "./images/26\" Flight/04.jpg",
           "width": 2662,
           "height": 3992,
           "size": 5900220,
@@ -338,7 +338,7 @@
           "tags": [],
           "camera": "HONOR ELP-NX9",
           "lens": null,
-          "url_thumb": "/images/26\" Flight/04-thumb.webp",
+          "url_thumb": "./images/26\" Flight/04-thumb.webp",
           "color": "#080808"
         }
       ],
@@ -380,7 +380,7 @@
         {
           "id": "img-26-bw-1776028806621-0",
           "filename": "01.jpg",
-          "url": "/images/26\" bw/01.jpg",
+          "url": "./images/26\" bw/01.jpg",
           "width": 1475,
           "height": 2216,
           "size": 2658548,
@@ -388,13 +388,13 @@
           "tags": [],
           "camera": "SONY NEX-3",
           "lens": "E 18-55mm F3.5-5.6 OSS",
-          "url_thumb": "/images/26\" bw/01-thumb.webp",
+          "url_thumb": "./images/26\" bw/01-thumb.webp",
           "color": "#686868"
         },
         {
           "id": "img-26-bw-1776028806621-1",
           "filename": "02.jpg",
-          "url": "/images/26\" bw/02.jpg",
+          "url": "./images/26\" bw/02.jpg",
           "width": 3056,
           "height": 4592,
           "size": 11349937,
@@ -402,13 +402,13 @@
           "tags": [],
           "camera": "SONY NEX-3",
           "lens": "E 18-55mm F3.5-5.6 OSS",
-          "url_thumb": "/images/26\" bw/02-thumb.webp",
+          "url_thumb": "./images/26\" bw/02-thumb.webp",
           "color": "#787878"
         },
         {
           "id": "img-26-bw-1776028806622-2",
           "filename": "03.jpg",
-          "url": "/images/26\" bw/03.jpg",
+          "url": "./images/26\" bw/03.jpg",
           "width": 3072,
           "height": 4096,
           "size": 7391007,
@@ -416,7 +416,7 @@
           "tags": [],
           "camera": "HONOR ELI-NX9",
           "lens": null,
-          "url_thumb": "/images/26\" bw/03-thumb.webp",
+          "url_thumb": "./images/26\" bw/03-thumb.webp",
           "color": "#585858"
         }
       ],
@@ -460,7 +460,7 @@
           "tags": [],
           "camera": "SONY ILCE-7M4",
           "lens": "E 28-75mm F2.8 A063",
-          "url_thumb": "/images/26\" Portrait/01-thumb.webp",
+          "url_thumb": "./images/26\" Portrait/01-thumb.webp",
           "color": "#080808"
         }
       ],
@@ -514,6 +514,6 @@
   },
   "meta": {
     "next_project_id": 8,
-    "version": "3.1.2"
+    "version": "3.1.4"
   }
 }
