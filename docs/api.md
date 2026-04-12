@@ -56,6 +56,7 @@ An array of projects. Each project generates a detail page and a card in the gri
 | `id` / `slug` | `string` | Unique identifier (e.g., `urban-geometry`). |
 | `title` | `string` | Display title. |
 | `year` | `integer` | Year the project was shot. |
+| `place` | `integer` | (Optional) Numeric value used for custom curated sorting (lower numbers appear first). |
 | `tags` | `array[string]` | Tags for categorization and filtering. |
 | `description` | `string` | Long-form description shown on the project page. |
 | `excerpt` | `string` | Short description used on grid cards and SEO tags. |
@@ -77,6 +78,9 @@ To use local images, place them in the `/images/` directory at the root of your 
 | `width` | `integer` | Image width in pixels (required for proper scaling). |
 | `height` | `integer` | Image height in pixels (required for proper scaling). |
 | `size` | `integer` | File size in bytes (shown in the lightbox). |
+| `tags` | `array[string]` | (Optional) Tags specific to this individual image. |
+| `camera` | `string` | (Optional) Camera model used for this specific image. |
+| `lens` | `string` | (Optional) Lens model used for this specific image. |
 | `primary` | `boolean` | Exactly **one** image per project must be `true` (used as the thumbnail). |
 
 ---

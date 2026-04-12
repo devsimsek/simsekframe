@@ -23,29 +23,47 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000` in your browser.
 
-## Editing Your Portfolio
+## Managing Your Portfolio
 
-TypeGrid reads from `data/typegrid.json` on load. This file acts as your database and API. 
+TypeGrid reads from `data/typegrid.json` on load. This file acts as your database and API. While you can edit it manually, TypeGrid comes with powerful interactive CLI tools to manage your portfolio effortlessly.
 
-To add a new project manually:
-1. Open `data/typegrid.json`.
-2. Add a new object to the `projects` array.
-3. Refresh the page.
+First, install the required dependencies:
+```bash
+npm install
+```
 
-### Auto-Generating the API (Local Images)
+### The Unified CLI (TUI)
 
-If you host your images locally in the `/images/` directory (grouped into subdirectories for each project), you can use the built-in API Generator to automatically populate your portfolio!
+TypeGrid includes a full Terminal User Interface (TUI) built for keyboard-first management of your portfolio, settings, and generated API:
 
-1. Place your project folders inside `/images/` (e.g., `/images/my-trip/photo1.jpg`).
-2. Install the generator dependencies and run the script:
-   ```bash
-   npm install
-   npm run generate
-   ```
-3. The generator will scan your directories, extract EXIF data (Camera, Lens, Date), calculate exact dimensions, and rewrite your `typegrid.json` automatically while preserving your global site settings.
+```bash
+npm run typegrid
+```
+
+This master menu allows you to navigate between:
+1. **Manage Albums**: The Interactive Album Manager
+2. **Site Configuration**: The Configurator Wizard
+3. **Auto-Generate API**: The Batch Scanner
+
+#### 1. Manage Albums
+- **Visual Navigation:** View your albums, images, and visual ASCII previews directly in the terminal.
+- **Album Management:** Create (`c`), edit (`e`), delete (`d`), toggle favorite (`f`), toggle visibility/draft (`v`), and reorder (`r` or `Shift+J/K`) albums.
+- **Image Management:** Add (`a`), delete (`d`), open in system viewer (`o`), and reorder (`r` or `Shift+J/K`) images.
+- **Metadata Editing:** Quickly edit tags (`t`), camera (`c`), lens (`l`), or edit everything (`e`). Set primary images (`p`).
+- **Autoscan:** Press `s` to automatically scan an album's folder on disk, extract EXIF data, calculate dimensions, and import new photos seamlessly.
+- **Updates:** Press `u` to check for and install OTA updates from the TypeGrid repository.
+
+#### 2. Site Configuration
+An interactive wizard to update your site title, description, SEO, themes, layout, multi-author settings, and social links.
+
+#### 3. Auto-Generate API
+A batch scanner that auto-generates your `typegrid.json` from the `/images/` directory, extracting EXIF data and handling collisions.
+
+### Manual Edits
+You can always edit `data/typegrid.json` manually if you prefer. Read the [API Reference](api.md) for the complete JSON schema.
 
 Alpine.js handles the routing, rendering, and state management completely client-side.
 
 ---
 
-Explore the [Features](features.md) and [Architecture](architecture.md) pages for deep dives into TypeGrid's capabilities and structural design.
+Explore the [Features](features.md), [Architecture](architecture.md), and [API Reference](api.md) pages for deep dives into TypeGrid's capabilities and structural design.

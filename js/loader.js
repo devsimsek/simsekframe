@@ -284,15 +284,28 @@ class DataLoader {
       let aVal = a[field];
       let bVal = b[field];
 
+      // Special fallback handling if values are missing or null
+      if (aVal === null || aVal === undefined) aVal = order === 'asc' ? Infinity : -Infinity;
+      if (bVal === null || bVal === undefined) bVal = order === 'asc' ? Infinity : -Infinity;
+
       // Handle different types
-      if (typeof aVal === 'string') {
-        aVal = aVal.toLowerCase();
-        bVal = bVal.toLowerCase();
+      if (typeof aVal === 'string' && typeof bVal === 'string') {
+        const dateA = Date.parse(aVal);
+        const dateB = Date.parse(bVal);
+        if (!isNaN(dateA) && !isNaN(dateB)) {
+          aVal = dateA;
+          bVal = dateB;
+        } else {
+          aVal = aVal.toLowerCase();
+          bVal = bVal.toLowerCase();
+        }
       }
 
       if (aVal < bVal) return order === 'asc' ? -1 : 1;
       if (aVal > bVal) return order === 'asc' ? 1 : -1;
-      return 0;
+      
+      // Tie-breaker: Always fallback to year descending
+      return (b.year || 0) - (a.year || 0);
     });
 
     return sorted;

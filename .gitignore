@@ -1,0 +1,16 @@
+.DS_STORE
+
+tasks.md
+
+node_modules
+
+docs
+
+cli
+
+*.md
+*.yml
+package-lock.json
+package.json
+mkdocs.yml
+LICENSE
