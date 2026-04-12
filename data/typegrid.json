@@ -66,8 +66,9 @@
           "size": 4354204,
           "primary": true,
           "tags": [],
-          "lens": null,
-          "camera": null
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "camera": "SONY NEX-3",
+          "created_at": "2026-04-11T15:52:16.000Z"
         },
         {
           "id": "img-26-red-1",
@@ -78,8 +79,8 @@
           "size": 10632879,
           "primary": false,
           "tags": [],
-          "lens": null,
-          "camera": null
+          "lens": "E 27-75mm F2.8 A063",
+          "camera": "SONY ILCE-7M4"
         }
       ],
       "seo": {
@@ -126,8 +127,9 @@
           "size": 20069776,
           "primary": true,
           "tags": [],
-          "lens": null,
-          "camera": null
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "camera": "SONY NEX-3",
+          "created_at": "2026-04-11T17:58:42.000Z"
         },
         {
           "id": "img-26-green-1",
@@ -138,8 +140,9 @@
           "size": 26330853,
           "primary": false,
           "tags": [],
-          "lens": null,
-          "camera": null
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "camera": "SONY NEX-3",
+          "created_at": "2026-04-11T17:59:21.000Z"
         },
         {
           "id": "img-26-green-2",
@@ -150,8 +153,9 @@
           "size": 7457252,
           "primary": false,
           "tags": [],
-          "lens": null,
-          "camera": null
+          "lens": "E 28-75mm F2.8 A063",
+          "camera": "SONY ILCE-7M4",
+          "created_at": "2026-02-10T18:46:42.000Z"
         }
       ],
       "seo": {
@@ -193,8 +197,9 @@
           "size": 26534184,
           "primary": true,
           "tags": [],
-          "lens": null,
-          "camera": null
+          "lens": "E 28-75mm F2.8 A063",
+          "camera": "SONY ILCE-7M4",
+          "created_at": "2026-02-11T18:58:33.000Z"
         }
       ],
       "seo": {
@@ -212,6 +217,195 @@
       "draft": false,
       "url": "/projects/26-blue/",
       "place": 3
+    },
+    {
+      "id": "26-experiments",
+      "slug": "26-experiments",
+      "title": "26\" Experiments",
+      "year": 2026,
+      "tags": [
+        "experimental",
+        "custom setup",
+        "various lenses",
+        "various cameras"
+      ],
+      "description": "Experimental pictures i've taken with various cameras and lenses.",
+      "place": 4,
+      "images": [
+        {
+          "id": "img-1776026905500",
+          "filename": "01.jpg",
+          "url": "/images/26\" Experiments/01.jpg",
+          "width": 4284,
+          "height": 2851,
+          "primary": true,
+          "camera": "SONY NEX-3",
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "created_at": "2026-04-12T13:56:41.000Z",
+          "tags": [
+            "eye",
+            "blue eye",
+            "bokeh",
+            "experiment"
+          ]
+        }
+      ],
+      "excerpt": "1 photos"
+    },
+    {
+      "id": "26-flight",
+      "slug": "26-flight",
+      "title": "26\" Flight",
+      "year": 2026,
+      "tags": [
+        "26",
+        "flight",
+        "aviation",
+        "birds",
+        "nature",
+        "landscape"
+      ],
+      "description": "includes some of the pictures from my flights and some birds flying :D",
+      "excerpt": "4 photos",
+      "camera": null,
+      "lens": null,
+      "favorite": false,
+      "images": [
+        {
+          "id": "img-26-flight-0",
+          "filename": "01.png",
+          "url": "./images/26\" Flight/01.png",
+          "width": 2048,
+          "height": 3072,
+          "size": 8895974,
+          "primary": true,
+          "tags": [],
+          "lens": null,
+          "camera": "Honor 200 Pro"
+        },
+        {
+          "id": "img-26-flight-1776028784326-1",
+          "filename": "02.jpg",
+          "url": "/images/26\" Flight/02.jpg",
+          "width": 3072,
+          "height": 4096,
+          "size": 7391007,
+          "primary": false,
+          "tags": [],
+          "camera": "HONOR ELI-NX9",
+          "lens": null
+        },
+        {
+          "id": "img-26-flight-1776028784327-2",
+          "filename": "03.jpg",
+          "url": "/images/26\" Flight/03.jpg",
+          "width": 2731,
+          "height": 4096,
+          "size": 9166738,
+          "primary": false,
+          "tags": [],
+          "camera": "HONOR ELI-NX9",
+          "lens": null
+        },
+        {
+          "id": "img-26-flight-1776028784328-3",
+          "filename": "04.jpg",
+          "url": "/images/26\" Flight/04.jpg",
+          "width": 2662,
+          "height": 3992,
+          "size": 5900220,
+          "primary": false,
+          "tags": [],
+          "camera": "HONOR ELI-NX9",
+          "lens": null
+        }
+      ],
+      "seo": {
+        "meta_title": "26\" Flight — simsekframe",
+        "meta_description": "Viewing gallery: 26\" Flight",
+        "canonical_url": "/projects/26-flight/"
+      },
+      "open_graph": {
+        "title": "26\" Flight",
+        "description": "Gallery for 26\" Flight.",
+        "image": "./images/26\" Flight/01.png"
+      },
+      "created_at": "2026-04-12T00:08:34.763Z",
+      "updated_at": "2026-04-12T00:08:34.763Z",
+      "draft": false,
+      "url": "/projects/26-flight/",
+      "place": 5
+    },
+    {
+      "id": "26-bw",
+      "slug": "26-bw",
+      "title": "26\" BW",
+      "year": 2026,
+      "place": 6,
+      "tags": [
+        "black",
+        "white",
+        "dark",
+        "portrait",
+        "architecture"
+      ],
+      "description": "Gallery for 26\" BW.",
+      "excerpt": "3 photos",
+      "camera": "SONY NEX-3",
+      "lens": "E 18-55mm F3.5-5.6 OSS",
+      "favorite": false,
+      "images": [
+        {
+          "id": "img-26-bw-1776028806621-0",
+          "filename": "01.jpg",
+          "url": "/images/26\" bw/01.jpg",
+          "width": 1475,
+          "height": 2216,
+          "size": 2658548,
+          "primary": true,
+          "tags": [],
+          "camera": "SONY NEX-3",
+          "lens": "E 18-55mm F3.5-5.6 OSS"
+        },
+        {
+          "id": "img-26-bw-1776028806621-1",
+          "filename": "02.jpg",
+          "url": "/images/26\" bw/02.jpg",
+          "width": 3056,
+          "height": 4592,
+          "size": 11349937,
+          "primary": false,
+          "tags": [],
+          "camera": "SONY NEX-3",
+          "lens": "E 18-55mm F3.5-5.6 OSS"
+        },
+        {
+          "id": "img-26-bw-1776028806622-2",
+          "filename": "03.jpg",
+          "url": "/images/26\" bw/03.jpg",
+          "width": 3072,
+          "height": 4096,
+          "size": 7391007,
+          "primary": false,
+          "tags": [],
+          "camera": "HONOR ELI-NX9",
+          "lens": null
+        }
+      ],
+      "seo": {
+        "meta_title": "26\" BW — simsekframe",
+        "meta_description": "Viewing gallery: 26\" BW",
+        "canonical_url": "/projects/26-bw/"
+      },
+      "open_graph": {
+        "title": "26\" BW",
+        "description": "Gallery for 26\" BW.",
+        "image": "/images/26\" bw/01.jpg"
+      },
+      "created_at": "2026-04-12T21:20:06.617Z",
+      "updated_at": "2026-04-12T21:20:06.617Z",
+      "draft": false,
+      "url": "/projects/26-bw/"
     },
     {
       "id": "26-portrait",
@@ -254,63 +448,15 @@
       "updated_at": "2026-04-12T09:45:40.752Z",
       "draft": false,
       "url": "/projects/26-portrait/",
-      "place": 4
-    },
-    {
-      "id": "26-flight",
-      "slug": "26-flight",
-      "title": "26\" Flight",
-      "year": 2026,
-      "tags": [
-        "26",
-        "flight",
-        "aviation",
-        "birds",
-        "nature",
-        "landscape"
-      ],
-      "description": "includes some of the pictures from my flights and some birds flying :D",
-      "excerpt": "1 photos",
-      "camera": null,
-      "lens": null,
-      "favorite": false,
-      "images": [
-        {
-          "id": "img-26-flight-0",
-          "filename": "01.png",
-          "url": "./images/26\" Flight/01.png",
-          "width": 2048,
-          "height": 3072,
-          "size": 8895974,
-          "primary": true,
-          "tags": [],
-          "lens": null,
-          "camera": null
-        }
-      ],
-      "seo": {
-        "meta_title": "26\" Flight — simsekframe",
-        "meta_description": "Viewing gallery: 26\" Flight",
-        "canonical_url": "/projects/26-flight/"
-      },
-      "open_graph": {
-        "title": "26\" Flight",
-        "description": "Gallery for 26\" Flight.",
-        "image": "./images/26\" Flight/01.png"
-      },
-      "created_at": "2026-04-12T00:08:34.763Z",
-      "updated_at": "2026-04-12T00:08:34.763Z",
-      "draft": false,
-      "url": "/projects/26-flight/",
-      "place": 5
+      "place": 7
     }
   ],
   "collections": [],
   "posts": [],
   "pagination": {
     "page_size": 6,
-    "total_projects": 5,
-    "total_pages": 1,
+    "total_projects": 7,
+    "total_pages": 2,
     "pages": []
   },
   "socials": {
@@ -337,7 +483,7 @@
     }
   },
   "meta": {
-    "next_project_id": 6,
+    "next_project_id": 8,
     "version": "3.0.2"
   }
 }
