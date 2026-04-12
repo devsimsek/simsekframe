@@ -6,7 +6,7 @@
     "lang": "en-US",
     "favicon": "/assets/favicon.jpg",
     "accent": "#ea9a97",
-    "version": "3.0.4",
+    "version": "3.1.2",
     "created_at": "2026-04-12T00:00:00Z",
     "open_graph": {
       "title": "simsekframe",
@@ -68,7 +68,9 @@
           "tags": [],
           "lens": "E 18-55mm F3.5-5.6 OSS",
           "camera": "SONY NEX-3",
-          "created_at": "2026-04-11T15:52:16.000Z"
+          "created_at": "2026-04-11T15:52:16.000Z",
+          "url_thumb": "/images/26\" Red/01-thumb.webp",
+          "color": "#181818"
         },
         {
           "id": "img-26-red-1",
@@ -80,7 +82,9 @@
           "primary": false,
           "tags": [],
           "lens": "E 27-75mm F2.8 A063",
-          "camera": "SONY ILCE-7M4"
+          "camera": "SONY ILCE-7M4",
+          "url_thumb": "/images/26\" Red/02-thumb.webp",
+          "color": "#180808"
         }
       ],
       "seo": {
@@ -129,7 +133,9 @@
           "tags": [],
           "lens": "E 18-55mm F3.5-5.6 OSS",
           "camera": "SONY NEX-3",
-          "created_at": "2026-04-11T17:58:42.000Z"
+          "created_at": "2026-04-11T17:58:42.000Z",
+          "url_thumb": "/images/26\" Green/01-thumb.webp",
+          "color": "#383828"
         },
         {
           "id": "img-26-green-1",
@@ -142,7 +148,9 @@
           "tags": [],
           "lens": "E 18-55mm F3.5-5.6 OSS",
           "camera": "SONY NEX-3",
-          "created_at": "2026-04-11T17:59:21.000Z"
+          "created_at": "2026-04-11T17:59:21.000Z",
+          "url_thumb": "/images/26\" Green/02-thumb.webp",
+          "color": "#383828"
         },
         {
           "id": "img-26-green-2",
@@ -155,7 +163,9 @@
           "tags": [],
           "lens": "E 28-75mm F2.8 A063",
           "camera": "SONY ILCE-7M4",
-          "created_at": "2026-02-10T18:46:42.000Z"
+          "created_at": "2026-02-10T18:46:42.000Z",
+          "url_thumb": "/images/26\" Green/03-thumb.webp",
+          "color": "#080808"
         }
       ],
       "seo": {
@@ -199,7 +209,9 @@
           "tags": [],
           "lens": "E 28-75mm F2.8 A063",
           "camera": "SONY ILCE-7M4",
-          "created_at": "2026-02-11T18:58:33.000Z"
+          "created_at": "2026-02-11T18:58:33.000Z",
+          "url_thumb": "/images/26\" Blue/01-thumb.webp",
+          "color": "#080808"
         }
       ],
       "seo": {
@@ -247,7 +259,9 @@
             "blue eye",
             "bokeh",
             "experiment"
-          ]
+          ],
+          "url_thumb": "/images/26\" Experiments/01-thumb.webp",
+          "color": "#282828"
         }
       ],
       "excerpt": "1 photos"
@@ -281,7 +295,9 @@
           "primary": true,
           "tags": [],
           "lens": null,
-          "camera": "HONOR ELP-NX9"
+          "camera": "HONOR ELP-NX9",
+          "url_thumb": "/images/26\" Flight/01-thumb.webp",
+          "color": "#1858c8"
         },
         {
           "id": "img-26-flight-1776028784326-1",
@@ -293,7 +309,9 @@
           "primary": false,
           "tags": [],
           "camera": "HONOR ELP-NX9",
-          "lens": null
+          "lens": null,
+          "url_thumb": "/images/26\" Flight/02-thumb.webp",
+          "color": "#585858"
         },
         {
           "id": "img-26-flight-1776028784327-2",
@@ -305,7 +323,9 @@
           "primary": false,
           "tags": [],
           "camera": "HONOR ELP-NX9",
-          "lens": null
+          "lens": null,
+          "url_thumb": "/images/26\" Flight/03-thumb.webp",
+          "color": "#7898a8"
         },
         {
           "id": "img-26-flight-1776028784328-3",
@@ -317,7 +337,9 @@
           "primary": false,
           "tags": [],
           "camera": "HONOR ELP-NX9",
-          "lens": null
+          "lens": null,
+          "url_thumb": "/images/26\" Flight/04-thumb.webp",
+          "color": "#080808"
         }
       ],
       "seo": {
@@ -365,7 +387,9 @@
           "primary": true,
           "tags": [],
           "camera": "SONY NEX-3",
-          "lens": "E 18-55mm F3.5-5.6 OSS"
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "url_thumb": "/images/26\" bw/01-thumb.webp",
+          "color": "#686868"
         },
         {
           "id": "img-26-bw-1776028806621-1",
@@ -377,7 +401,9 @@
           "primary": false,
           "tags": [],
           "camera": "SONY NEX-3",
-          "lens": "E 18-55mm F3.5-5.6 OSS"
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "url_thumb": "/images/26\" bw/02-thumb.webp",
+          "color": "#787878"
         },
         {
           "id": "img-26-bw-1776028806622-2",
@@ -389,7 +415,9 @@
           "primary": false,
           "tags": [],
           "camera": "HONOR ELI-NX9",
-          "lens": null
+          "lens": null,
+          "url_thumb": "/images/26\" bw/03-thumb.webp",
+          "color": "#585858"
         }
       ],
       "seo": {
@@ -431,7 +459,9 @@
           "primary": true,
           "tags": [],
           "camera": "SONY ILCE-7M4",
-          "lens": "E 28-75mm F2.8 A063"
+          "lens": "E 28-75mm F2.8 A063",
+          "url_thumb": "/images/26\" Portrait/01-thumb.webp",
+          "color": "#080808"
         }
       ],
       "seo": {
@@ -484,6 +514,6 @@
   },
   "meta": {
     "next_project_id": 8,
-    "version": "3.0.4"
+    "version": "3.1.2"
   }
 }
