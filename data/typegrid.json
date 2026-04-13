@@ -6,7 +6,7 @@
     "lang": "en-US",
     "favicon": "/assets/favicon.jpg",
     "accent": "#ea9a97",
-    "version": "4.5.1",
+    "version": "4.5.2",
     "created_at": "2026-04-12T00:00:00Z",
     "open_graph": {
       "title": "simsekframe",
@@ -569,10 +569,10 @@
   "collections": [],
   "posts": [
     {
-      "id": "welcome-to-simsekkare",
-      "slug": "welcome-to-simsekkare",
-      "title": "Welcome to simsekkare!",
-      "file": "./posts/welcome-to-simsekkare.md",
+      "id": "welcome-to-simsekframe",
+      "slug": "welcome-to-simsekframe",
+      "title": "Welcome to simsekframe!",
+      "file": "./posts/welcome-to-simsekframe.md",
       "seo": {},
       "date": "2026-04-13",
       "excerpt": "With this post i'll do a small walkthrough of my latest project, TypeGrid!",
@@ -613,7 +613,7 @@
   },
   "meta": {
     "next_project_id": 8,
-    "version": "4.5.1"
+    "version": "4.5.2"
   },
   "pages": []
 }
