@@ -8,8 +8,8 @@ docs
 
 cli
 
-*.md
-*.yml
+CHANGELOG.md
+
 package-lock.json
 package.json
 mkdocs.yml
