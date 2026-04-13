@@ -2,11 +2,11 @@
   "site": {
     "title": "simsekframe",
     "description": "another hardware and software enthusiast that likes photos",
-    "base_url": "https://devsimsek.github.io/simsekframe",
+    "base_url": "https://kare.smsk.dev",
     "lang": "en-US",
     "favicon": "/assets/favicon.jpg",
     "accent": "#ea9a97",
-    "version": "3.1.7",
+    "version": "4.5.1",
     "created_at": "2026-04-12T00:00:00Z",
     "open_graph": {
       "title": "simsekframe",
@@ -117,7 +117,7 @@
         "sculpture"
       ],
       "description": "pictures i've taken of the green preset. i like the way it makes colors look more vibrant and saturated, especially for outdoor scenes.",
-      "excerpt": "3 photos",
+      "excerpt": "4 photos",
       "camera": "SONY NEX-3",
       "lens": "varies",
       "favorite": false,
@@ -166,6 +166,20 @@
           "created_at": "2026-02-10T18:46:42.000Z",
           "url_thumb": "./images/26\" Green/03-thumb.webp",
           "color": "#080808"
+        },
+        {
+          "id": "img-26-green-1776096245472-3",
+          "filename": "14.jpg",
+          "url": "./images/26\" Green/14.jpg",
+          "width": 1336,
+          "height": 2007,
+          "size": 2501170,
+          "primary": false,
+          "tags": [],
+          "camera": "SONY NEX-3",
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "color": "#383828",
+          "url_thumb": "./images/26\" Green/14-thumb.webp"
         }
       ],
       "seo": {
@@ -193,7 +207,7 @@
         "26"
       ],
       "description": "pictures i've taken of the blue preset. i like the way it makes colors look more vibrant and saturated, especially for outdoor scenes.",
-      "excerpt": "1 photos",
+      "excerpt": "2 photos",
       "camera": "SONY ILCE-7M4",
       "lens": "E 28-75mm F2.8 A063",
       "favorite": false,
@@ -212,6 +226,32 @@
           "created_at": "2026-02-11T18:58:33.000Z",
           "url_thumb": "./images/26\" Blue/01-thumb.webp",
           "color": "#080808"
+        },
+        {
+          "id": "img-26-blue-1776096245113-1",
+          "filename": "02.jpg",
+          "url": "./images/26\" Blue/02.jpg",
+          "width": 3557,
+          "height": 2367,
+          "size": 7277500,
+          "primary": false,
+          "tags": [
+            "blue",
+            "bokeh",
+            "dark",
+            "depth of field",
+            "landscape",
+            "rain",
+            "rainy",
+            "glass",
+            "window",
+            "motion blur",
+            "night sky"
+          ],
+          "camera": "SONY NEX-3",
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "color": "#080818",
+          "url_thumb": "./images/26\" Blue/02-thumb.webp"
         }
       ],
       "seo": {
@@ -262,9 +302,35 @@
           ],
           "url_thumb": "./images/26\" Experiments/01-thumb.webp",
           "color": "#282828"
+        },
+        {
+          "id": "img-26-experiments-1776096245292-1",
+          "filename": "02.jpg",
+          "url": "./images/26\" Experiments/02.jpg",
+          "width": 3557,
+          "height": 2367,
+          "size": 7277500,
+          "primary": false,
+          "tags": [
+            "blue",
+            "bokeh",
+            "experimental",
+            "depth of field",
+            "rain",
+            "window",
+            "glass",
+            "landscape",
+            "sky",
+            "night",
+            "dark"
+          ],
+          "camera": "SONY NEX-3",
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "color": "#080818",
+          "url_thumb": "./images/26\" Experiments/02-thumb.webp"
         }
       ],
-      "excerpt": "1 photos"
+      "excerpt": "2 photos"
     },
     {
       "id": "26-flight",
@@ -372,7 +438,7 @@
         "architecture"
       ],
       "description": "Gallery for 26\" BW.",
-      "excerpt": "3 photos",
+      "excerpt": "4 photos",
       "camera": "SONY NEX-3",
       "lens": "E 18-55mm F3.5-5.6 OSS",
       "favorite": false,
@@ -422,7 +488,7 @@
         {
           "id": "img-1776034911108",
           "filename": "04.jpg",
-          "url": "/images/26\" bw/04.jpg",
+          "url": "./images/26\" bw/04.jpg",
           "width": 1749,
           "height": 2627,
           "primary": false,
@@ -501,7 +567,20 @@
     }
   ],
   "collections": [],
-  "posts": [],
+  "posts": [
+    {
+      "id": "welcome-to-simsekkare",
+      "slug": "welcome-to-simsekkare",
+      "title": "Welcome to simsekkare!",
+      "file": "./posts/welcome-to-simsekkare.md",
+      "seo": {},
+      "date": "2026-04-13",
+      "excerpt": "With this post i'll do a small walkthrough of my latest project, TypeGrid!",
+      "tags": [
+        "hello-world"
+      ]
+    }
+  ],
   "pagination": {
     "page_size": 6,
     "total_projects": 7,
@@ -533,6 +612,6 @@
   },
   "meta": {
     "next_project_id": 8,
-    "version": "3.1.7"
+    "version": "4.5.1"
   }
 }

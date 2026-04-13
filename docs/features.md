@@ -29,7 +29,7 @@ Navigate your entire portfolio without touching the mouse. TypeGrid features a g
 
 ## 🔍 Advanced Zoomable Lightbox
 Clicking any image opens the fullscreen lightbox. 
-- **Zoom & Pan**: Smoothly zoom into high-resolution photos and pan around using the mouse, touch gestures, or keyboard shortcuts.
+- **Zoom & Pan**: Smoothly zoom into high-resolution photos and pan around using the mouse scroll wheel, click-to-zoom, touch gestures, or keyboard shortcuts.
 - **EXIF & Metadata**: Instantly view the image's dimensions, file size, camera model, and lens information.
 - **Downloads**: One-click download button for your visitors to save images.
 
@@ -50,11 +50,17 @@ The UI is built from the ground up for mobile devices first.
 Your entire site is generated from a single `data/typegrid.json` file. 
 There is no database to configure. Simply update the JSON file to add new projects, collections, or change site-wide SEO metadata. TypeGrid handles the rest, automatically paginating large galleries and generating dynamic routes.
 
+## 📝 Integrated Blog & Pages
+Beyond photography portfolios, TypeGrid natively supports text-heavy content like blog posts and standalone pages (e.g., "About", "Contact").
+- **External Markdown**: Store your metadata cleanly in `typegrid.json` while fetching post and page content dynamically from standard `.md` files.
+- **Unified Routing**: Seamlessly handles `#/post/:slug` and `#/page/:slug` without any extra configuration.
+- **Advanced SEO & Sitemap**: Every post supports dedicated metadata and cover images. The CLI tools automatically generate a `sitemap.xml` mapping all active projects, posts, and pages to ensure search engines can properly crawl your portfolio.
+
 ## 🛠️ Interactive CLI Tools & TUI
 If you prefer to host images locally, TypeGrid includes a suite of powerful interactive CLI tools to manage your portfolio effortlessly:
 
 ### 🖥️ Unified Master CLI (TUI)
-Run `npm run typegrid` to launch a fully-featured, raw mode master menu right in your terminal, which provides access to the Album Manager, Configurator, API Generator, and the OTA Updater.
+Run `npm run typegrid` to launch a fully-featured, raw mode master menu right in your terminal, which provides access to the Album Manager, Post & Page Managers, Configurator, API Generator, and the OTA Updater.
 
 #### 📁 Album Manager
 - **Visual Previews**: View your local images as ASCII/ANSI previews directly in your terminal.
@@ -62,11 +68,15 @@ Run `npm run typegrid` to launch a fully-featured, raw mode master menu right in
 - **Image Management**: Add (`a`), delete (`d`), open (`o`), and reorder (`r` or `Shift+J/K`) images.
 - **Granular Edits**: Quickly edit individual image properties (`t` for tags, `c` for camera, `l` for lens).
 - **Set Primary**: Mark any image as the album cover instantly (`p`).
-- **Autoscan**: Press `s` to automatically scan an album's folder on disk, extracting EXIF data and adding new photos.
-- **Scan EXIF**: Press `x` on any individual image to instantly extract its Dimensions, Camera, Lens, and Creation Date.
-- **OTA Updates**: Press `u` (or use the main menu) to check for and install over-the-air updates from the TypeGrid repository.
+- **Autoscan**: Press `s` to automatically scan an album's folder on disk, extracting EXIF data, generating WebP thumbnails, and adding new photos.
+- **Scan EXIF**: Press `x` on any individual image to instantly extract its Dimensions, Camera, Lens, Creation Date, and generate a dominant-color placeholder.
+- **OTA Updates**: Press `u` (or use the main menu) to check for and safely install over-the-air updates from the TypeGrid repository (prompts before overwriting user HTML).
+
+#### 📝 Post & Page Managers
+- **Content Management**: Interactive menus to create and manage your markdown blog posts and standalone pages directly from the terminal.
+- **Metadata Handling**: Easily update SEO tags, slugs, cover images, and publish dates while keeping your markdown files clean and separate.
 
 #### ⚙️ Configurator & API Generator
 - **Configurator**: An interactive wizard to maintain site settings (language, favicon), layout & UI (columns, thumbnails, font), sorting algorithms, pagination, multiple authors, and global/author social links.
-- **API Generator**: A batch scanner that auto-generates your `typegrid.json` from the `/images/` directory. It features smart EXIF extraction, collision handling, and non-destructive updates.
+- **API Generator**: A batch scanner that auto-generates your `typegrid.json` from the `/images/` directory. It features smart EXIF extraction, WebP thumbnail generation, automatic garbage collection for orphaned thumbnails, collision handling, and non-destructive updates.
 - **Automated Migrations**: Upgrades older `typegrid.json` shapes to the latest schema without data loss.
