@@ -6,7 +6,7 @@
     "lang": "en-US",
     "favicon": "/assets/favicon.jpg",
     "accent": "#ea9a97",
-    "version": "4.5.2",
+    "version": "4.5.3",
     "created_at": "2026-04-12T00:00:00Z",
     "open_graph": {
       "title": "simsekframe",
@@ -627,6 +627,6 @@
   },
   "meta": {
     "next_project_id": 8,
-    "version": "4.5.2"
+    "version": "4.5.3"
   }
 }
