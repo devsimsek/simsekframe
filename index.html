@@ -8,12 +8,9 @@
     <!-- SEO & Meta -->
     <meta
       name="description"
-      content="another hardware and software enthusiast that likes photos"
+      content="TypeGrid — A minimal photographers' portfolio"
     />
-    <meta
-      name="google-site-verification"
-      content="KYvaRAxvLqitz_wFCpwRsO5OMC_NgFaz6YuwlDujk8c"
-    />
+
     <!-- Initial Theme Injection to prevent FOUC -->
     <script>
       (function () {
@@ -38,14 +35,14 @@
     <link rel="stylesheet" href="./assets/css/mobile.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
 
-    <title>simsekframe</title>
+    <title>TypeGrid</title>
   </head>
   <body x-data="typegrid" @keydown.window="handleKeydown($event)">
     <!-- Header -->
     <header>
       <div class="header-inner">
         <h1 class="site-title">
-          <a href="#/" x-text="site.title || 'simsekframe'"></a>
+          <a href="#/" x-text="site.title || 'TypeGrid'"></a>
         </h1>
         <div class="header-actions">
           <!-- Theme Switcher bound to Alpine Store -->
@@ -102,12 +99,8 @@
           <ul>
             <li><a href="#/" @click="navOpen = false">Home</a></li>
             <li><a href="#/projects" @click="navOpen = false">Projects</a></li>
-            <li x-show="pages.length > 0">
-              <a href="#/pages" @click="navOpen = false">Pages</a>
-            </li>
-            <li x-show="posts.length > 0">
-              <a href="#/posts" @click="navOpen = false">Posts</a>
-            </li>
+            <li x-show="pages.length > 0"><a href="#/pages" @click="navOpen = false">Pages</a></li>
+            <li x-show="posts.length > 0"><a href="#/posts" @click="navOpen = false">Posts</a></li>
             <li>
               <a href="#" @click.prevent="showHelp = true; navOpen = false"
                 >Shortcuts (?)</a
@@ -133,10 +126,7 @@
       </div>
 
       <!-- Grid View & Tag Filter View -->
-      <div
-        x-show="!isLoading && (route === 'home' || route === 'projects' || route === 'tag')"
-        x-cloak
-      >
+      <div x-show="!isLoading && (route === 'home' || route === 'projects' || route === 'tag')" x-cloak>
         <div class="container">
           <!-- Header & Sorting -->
           <div class="flex justify-between items-end mb-6 border-b pb-4">
@@ -281,71 +271,22 @@
           </div>
 
           <!-- Home: Recent Posts & Pages Summaries -->
-          <div
-            class="mt-12"
-            x-show="route === 'home' && (posts.length > 0 || pages.length > 0)"
-            x-cloak
-          >
+          <div class="mt-12" x-show="route === 'home' && (posts.length > 0 || pages.length > 0)" x-cloak>
             <div class="flex justify-between items-end mb-6 border-b pb-4">
               <h2 class="mb-0" style="margin-bottom: 0">Writing & Pages</h2>
             </div>
-            <div
-              class="grid"
-              style="
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                gap: var(--spacing-6);
-              "
-            >
-              <template
-                x-for="post in posts.slice(0, 3)"
-                :key="'home-post-'+post.id"
-              >
-                <a
-                  :href="'#/post/' + (post.slug || post.id)"
-                  class="card project-card"
-                  style="padding: 1.5rem; text-decoration: none"
-                >
-                  <h3
-                    x-text="post.title"
-                    style="
-                      margin-bottom: 0.5rem;
-                      color: var(--color-text-primary);
-                    "
-                  ></h3>
-                  <div
-                    class="text-sm text-muted mb-2"
-                    x-show="post.date"
-                    x-text="post.date"
-                  ></div>
-                  <p
-                    x-show="post.excerpt"
-                    x-text="post.excerpt"
-                    style="margin: 0; color: var(--color-text-secondary)"
-                  ></p>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--spacing-6);">
+              <template x-for="post in posts.slice(0, 3)" :key="'home-post-'+post.id">
+                <a :href="'#/post/' + (post.slug || post.id)" class="card project-card" style="padding: 1.5rem; text-decoration: none;">
+                  <h3 x-text="post.title" style="margin-bottom: 0.5rem; color: var(--color-text-primary);"></h3>
+                  <div class="text-sm text-muted mb-2" x-show="post.date" x-text="post.date"></div>
+                  <p x-show="post.excerpt" x-text="post.excerpt" style="margin: 0; color: var(--color-text-secondary);"></p>
                 </a>
               </template>
-              <template
-                x-for="page in pages.slice(0, 3)"
-                :key="'home-page-'+page.id"
-              >
-                <a
-                  :href="'#/page/' + (page.slug || page.id)"
-                  class="card project-card"
-                  style="padding: 1.5rem; text-decoration: none"
-                >
-                  <h3
-                    x-text="page.title"
-                    style="
-                      margin-bottom: 0.5rem;
-                      color: var(--color-text-primary);
-                    "
-                  ></h3>
-                  <div
-                    class="text-sm text-muted"
-                    style="color: var(--color-accent)"
-                  >
-                    Page
-                  </div>
+              <template x-for="page in pages.slice(0, 3)" :key="'home-page-'+page.id">
+                <a :href="'#/page/' + (page.slug || page.id)" class="card project-card" style="padding: 1.5rem; text-decoration: none;">
+                  <h3 x-text="page.title" style="margin-bottom: 0.5rem; color: var(--color-text-primary);"></h3>
+                  <div class="text-sm text-muted" style="color: var(--color-accent);">Page</div>
                 </a>
               </template>
             </div>
@@ -466,7 +407,7 @@
 
       <!-- Post & Page View -->
       <div x-show="!isLoading && route === 'posts'" x-cloak>
-        <div class="container" style="max-width: 768px; margin: 0 auto">
+        <div class="container" style="max-width: 768px; margin: 0 auto;">
           <div class="flex justify-between items-end mb-6 border-b pb-4">
             <div>
               <nav class="breadcrumb mb-2" aria-label="Breadcrumb">
@@ -478,28 +419,10 @@
           </div>
           <div class="flex flex-col gap-6">
             <template x-for="post in posts" :key="post.id">
-              <a
-                :href="'#/post/' + (post.slug || post.id)"
-                class="card project-card"
-                style="padding: 1.5rem; text-decoration: none"
-              >
-                <h3
-                  x-text="post.title"
-                  style="
-                    margin-bottom: 0.5rem;
-                    color: var(--color-text-primary);
-                  "
-                ></h3>
-                <div
-                  class="text-sm text-muted mb-2"
-                  x-show="post.date"
-                  x-text="post.date"
-                ></div>
-                <p
-                  x-show="post.excerpt"
-                  x-text="post.excerpt"
-                  style="margin: 0; color: var(--color-text-secondary)"
-                ></p>
+              <a :href="'#/post/' + (post.slug || post.id)" class="card project-card" style="padding: 1.5rem; text-decoration: none;">
+                <h3 x-text="post.title" style="margin-bottom: 0.5rem; color: var(--color-text-primary);"></h3>
+                <div class="text-sm text-muted mb-2" x-show="post.date" x-text="post.date"></div>
+                <p x-show="post.excerpt" x-text="post.excerpt" style="margin: 0; color: var(--color-text-secondary);"></p>
               </a>
             </template>
           </div>
@@ -507,7 +430,7 @@
       </div>
 
       <div x-show="!isLoading && route === 'pages'" x-cloak>
-        <div class="container" style="max-width: 768px; margin: 0 auto">
+        <div class="container" style="max-width: 768px; margin: 0 auto;">
           <div class="flex justify-between items-end mb-6 border-b pb-4">
             <div>
               <nav class="breadcrumb mb-2" aria-label="Breadcrumb">
@@ -519,37 +442,21 @@
           </div>
           <div class="flex flex-col gap-4">
             <template x-for="page in pages" :key="page.id">
-              <a
-                :href="'#/page/' + (page.slug || page.id)"
-                class="card project-card"
-                style="padding: 1.5rem; text-decoration: none"
-              >
-                <h3
-                  x-text="page.title"
-                  style="margin: 0; color: var(--color-text-primary)"
-                ></h3>
+              <a :href="'#/page/' + (page.slug || page.id)" class="card project-card" style="padding: 1.5rem; text-decoration: none;">
+                <h3 x-text="page.title" style="margin: 0; color: var(--color-text-primary);"></h3>
               </a>
             </template>
           </div>
         </div>
       </div>
 
-      <div
-        x-show="!isLoading && (route === 'post' || route === 'page') && currentPost"
-        x-cloak
-      >
-        <div class="container" style="max-width: 768px; margin: 0 auto">
+      <div x-show="!isLoading && (route === 'post' || route === 'page') && currentPost" x-cloak>
+        <div class="container" style="max-width: 768px; margin: 0 auto;">
           <!-- Breadcrumb -->
-          <div
-            class="album-controls flex justify-between items-center mb-6 pb-4 border-b"
-          >
+          <div class="album-controls flex justify-between items-center mb-6 pb-4 border-b">
             <nav class="breadcrumb mb-0">
               <a href="#/">Home</a> <span>/</span>
-              <a
-                :href="route === 'post' ? '#/posts' : '#/pages'"
-                x-text="route === 'post' ? 'Posts' : 'Pages'"
-              ></a>
-              <span>/</span>
+              <a :href="route === 'post' ? '#/posts' : '#/pages'" x-text="route === 'post' ? 'Posts' : 'Pages'"></a> <span>/</span>
               <span x-text="currentPost?.title"></span>
             </nav>
           </div>
@@ -557,16 +464,10 @@
           <!-- Post Header -->
           <div class="post-header mb-8">
             <h1 class="mb-2" x-text="currentPost?.title"></h1>
-            <div class="text-muted flex gap-4" style="flex-wrap: wrap">
-              <span
-                x-show="currentPost?.date"
-                x-text="currentPost?.date"
-              ></span>
+            <div class="text-muted flex gap-4" style="flex-wrap: wrap;">
+              <span x-show="currentPost?.date" x-text="currentPost?.date"></span>
             </div>
-            <div
-              class="mt-4"
-              x-show="currentPost?.tags && currentPost.tags.length > 0"
-            >
+            <div class="mt-4" x-show="currentPost?.tags && currentPost.tags.length > 0">
               <div class="card-tags">
                 <template x-for="tag in currentPost?.tags" :key="tag">
                   <a :href="`#/tag/${tag}`" class="tag" x-text="tag"></a>
@@ -576,11 +477,7 @@
           </div>
 
           <!-- Post Content -->
-          <div
-            class="post-content"
-            x-html="htmlContent"
-            style="line-height: 1.7; font-size: 1.1rem; padding-bottom: 4rem"
-          ></div>
+          <div class="post-content" x-html="htmlContent" style="line-height: 1.7; font-size: 1.1rem; padding-bottom: 4rem;"></div>
         </div>
       </div>
     </main>

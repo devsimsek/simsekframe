@@ -207,7 +207,7 @@
         "26"
       ],
       "description": "pictures i've taken of the blue preset. i like the way it makes colors look more vibrant and saturated, especially for outdoor scenes.",
-      "excerpt": "2 photos",
+      "excerpt": "3 photos",
       "camera": "SONY ILCE-7M4",
       "lens": "E 28-75mm F2.8 A063",
       "favorite": false,
@@ -252,6 +252,20 @@
           "lens": "E 18-55mm F3.5-5.6 OSS",
           "color": "#080818",
           "url_thumb": "./images/26\" Blue/02-thumb.webp"
+        },
+        {
+          "id": "img-26-blue-1776418514761-2",
+          "filename": "03.jpg",
+          "url": "./images/26\" Blue/03.jpg",
+          "width": 3056,
+          "height": 4584,
+          "size": 20479490,
+          "primary": false,
+          "tags": [],
+          "camera": "SONY NEX-3",
+          "lens": "E 18-55mm F3.5-5.6 OSS",
+          "color": "#e8e8f8",
+          "url_thumb": "./images/26\" Blue/03-thumb.webp"
         }
       ],
       "seo": {
